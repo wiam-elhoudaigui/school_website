@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    width: 380px;
+    height: 430px;
+    background-color: #fff;
+    margin-top: 100px;
+    box-shadow: 3px 3px 50px #555;
+    border-radius: 8px;
+}
+.div1 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+form label{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.cssbtn{
+    padding-top: 20px;
+}
+.cssbtn button{
+    padding: 8px 154px;
+}
+.cssbtn p {
+    padding-top: 20px;
+}
+/* css for phone */
+@media screen and (max-width:768px){
+    .row{
+        box-shadow: none;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .row{
+        margin-top: 200px;
+    }
+
+}

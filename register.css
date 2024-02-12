@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.row{
+    height: 550px;
+    margin-top: 50px;
+}
+.cssbtn button{
+    padding: 8px 150px;
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .row{
+        margin-top: 200px;
+    }
+
+}

@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+/* -------HEADER */
+header{
+    height: 60px;
+    background-color: #fff;
+}
+.logo {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(255, 210, 7);
+    padding-left: 50px;
+}
+.logo :hover{
+    color: rgb(255, 210, 7) !important;
+}
+.navbar-toggler{
+    border: none;
+}
+.offcanvas{
+    background-color: rgb(255, 210, 7);
+}
+.offcanvas-header h5{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+}
+.csstxcl li a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+.cssMn{
+    display: none;
+}
+.cssnav{
+    padding-right: 50px;
+}
+.cssnav a{
+    color: rgb(130, 148, 170);
+}
+.cssnav li:hover{
+    border-bottom: 3px solid rgb(53, 127, 218);
+}
+/* ----------SECTION FOR PIC */
+.csspic h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.csspic h1{
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    color: rgb(53, 127, 218);
+    padding-left: 100px;
+}
+.csspic{
+    height: 600px;
+    width: 100%;
+    background-image: url(./picsection.jpg);
+    background-size: cover;
+}
+.csspic p{
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    width: 50%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+
+}
+.btnjoin{
+    background-color: rgb(53, 127, 218);
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+.csspic a{
+    padding-left: 100px;
+
+}
+.btnjoin:hover{
+    background-color: #fff;
+    color: rgb(53, 127, 218);
+    transition: 0.5s;
+}
+ /* -------SECTION FOR WELCOM  */
+.welcome{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 150px;
+}
+.welcome h1{
+    text-align: center;
+}
+.welcome p{
+    text-align: center;
+    color: rgb(53, 127, 218);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+/* ------acheivements */
+.acheiv h1{
+    color: #fff;
+    text-align: center;
+}
+.acheiv{
+    background-color: rgb(37, 114, 207);
+    width: 100%;
+    height: 300px;
+    padding-top: 60px;
+}
+.cssacheiv{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding-top: 50px;
+}
+.sectwo{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.nbr{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.nine{
+    padding-left: 50px;
+}
+.six{
+    padding-left: 35px;
+}
+.two{
+    padding-left: 37px;
+}
+/* ----------section for teachers */
+.cssteachers{
+    display: flex;
+    justify-content: center;
+}
+.cssteachers img{
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.module{
+    color: rgb(53, 127, 218);
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding-left: 25px;
+    margin: 10px 0px;
+}
+.music{
+    padding-left: 45px;
+}
+.math{
+    padding-left: 47px;
+}
+/*  -------SECTION FOR COURSES  */
+.csscard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.courtitre{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.card{
+    border: none;
+}
+.csscard h2{
+    color: rgb(53, 127, 218);
+}
+.card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/* SECTION EVENT */
+.csssection{
+    background-color: rgb(37, 114, 207);
+    width: 100%;
+    height: 380px;
+    padding-top: 60px;
+}
+.csssevnt{
+    color: #fff;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.csscircle{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.CSS{
+    background-color: rgb(255, 205, 7);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin: 0px 10px;
+}
+.evnt1{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+.evnt2{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+.hours{
+    padding-left:30px ;
+}
+.days{
+    padding-left:32px ;
+}
+/* SECTION FOR CONTACT */
+.infotext{
+    text-align: center;
+}
+/* ------last news */
+.cssnews{
+    background-color: rgb(37, 114, 207);
+    height: 100px;
+}
+.titre h1{
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 20px;
+}
+.titre h5{
+    font-size: 15px;
+    color: #fff;
+}
+.CSSMAIL{
+    margin: 25px 0px;
+}
+.Subscribe{
+    margin: 25px 0px;
+}
+
+/* --------------FOOTER */
+footer{
+    background-color: rgb(53, 127, 218);
+    height: 230px;
+    color: #fff;
+
+}
+.logosection{
+    background-color: rgb(75, 138, 216);
+    color: #fff;
+    height: 180px;
+    width: 25%;
+}
+.pos{
+    position: relative;
+    top: 45px; 
+
+}
+.para1{
+    display: inline;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+.para2{
+    padding-left: 80px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    position: relative;
+    bottom: 25px;
+}
+.csslinks a{
+    text-decoration: none;
+    color: #aaa;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 20px;
+} 
+.p1{
+    font-weight: 600;
+    font-size: 18px
+}
+.p2{
+    font-size: 13px;
+}
+
+.socialmedia{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+.copyright{
+    height: 50px;
+    background-color: rgb(37, 114, 207);
+}
+.copyright p{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+.csscard{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* css for phone */
+@media screen and (max-width:768px){
+    .logo {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Rubik', sans-serif;
+        color: rgb(255, 210, 7) !important;
+        padding-left: 10px;
+    }
+    .cssMn{
+        display: block;
+    }
+    .cssnav{
+        display: none;
+    }
+    
+ /* ----------SECTION FOR PIC */
+    .csspic h2{
+        font-size: 22px;
+        padding-left: 30px;
+        padding-top: 100px;
+    }
+    .csspic h1{
+        font-weight: 700;
+        font-size: 30px;
+        padding-left: 30px;
+
+    }
+    .csspic{
+        height: 550px;
+    }
+    .csspic p{
+        padding-left: 30px;
+        font-size: 18px;
+        width: 95%;
+    }
+    .csspic a{
+        padding-left: 30px;
+    
+    }
+ /* -------SECTION FOR WELCOM  */
+    .welcome{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        height: 210px;
+    }
+
+ /* ------acheivements */
+    
+    .acheiv{
+        height: 300px;
+        padding-top: 40px;
+    }
+    .cssacheiv{
+        padding-top: 50px;
+        padding-left: 12px;
+    }
+    .sectwo{
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 10px;
+    }
+    .nbr{
+        font-size: 16px;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+    .Certified{
+        padding-left: 3px;
+    }
+    .Gradua{
+        padding-left: 2px;
+    }
+    .Awards{
+        padding-left: 2px;
+    }
+ /* ----------section for teachers */
+    .cssteachers{
+        display: flex;
+        flex-wrap: wrap;
+    }
+ /* SECTION EVENT */
+    .csssection{
+        height: 300px;
+        padding-top: 40px;
+    }
+    .csscircle{
+        padding-top: 45px;
+    }
+    .CSS{
+        width: 80px;
+        height: 80px;
+        padding-top: 10px;
+        margin: 0px 6px;
+    }
+    .evnt1{
+        padding-left: 25px;
+        font-size: 25px;
+    }
+    .evnt2{
+        padding-left: 13px;
+    }
+    .hours{
+        padding-left: 20px;
+    
+    }
+    .days{
+        padding-left: 23px;
+    }
+
+ /* ----- last news*/
+    .cssnews{
+        height: 200px;
+        width: 90%;
+    }
+    .titre h1{
+        font-size: 18px;
+    }
+    .CSSMAIL{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .Subscribe{
+        margin-top: 10px;
+    }
+ /* -----FOOTER */
+    footer{
+        height: 300px;
+    }
+    .logosection{
+        height: 100px;
+        width: 100%;
+    }
+    
+    .links{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 15px;
+        right: 10px;
+    } 
+    .pos{
+        position: relative;
+        top: 15px; 
+        left: 30px;
+    }
+    .p1{
+        font-weight: 600;
+        font-size: 17px
+    }
+    .p2{
+        font-size: 13px;
+    }
+    .links{
+        display: flex;
+        justify-content: space-around;
+    } 
+    .copyright{
+        position: relative;
+        top: 20px;
+    }
+     .socialmedia{
+        width: 70%;
+        position: relative;
+        right: 40px;
+        top: 20px;
+    }
+    .socialmedia img{
+        width: 27px;
+    }
+
+
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+ 
+
+
+ 
+ /* ----- last news*/
+    .titre h1{
+        font-size: 18px;
+    }
+    .CSSMAIL{
+        margin: 20px 0px;
+    }
+    .Subscribe{
+        margin: 20px 0px;
+    }
+ /* -----FOOTER */
+
+    .pos img{
+        width: 60px;
+        height: 60px;
+    }
+    .para1{
+        font-size: 13px;
+    }
+    .para2{
+        padding-left: 80px;
+        font-size: 12px;
+        position: relative;
+        bottom: 20px;
+    }
+    .logosection{
+        width: 30%;
+    }
+    .socialmedia{
+        padding-left: 50px;
+        position: relative;
+        top: 25px;
+        display: block;
+    }
+    .links{
+        width: 40%;
+        position: relative;
+        left: 30px;
+    }
+
+}
